@@ -16,6 +16,7 @@ struct RecordsView: View {
     var body: some View {
         ZStack {
             Rectangle()
+                .fill(.black)
                 .ignoresSafeArea()
             VStack {
                 ScrollView {

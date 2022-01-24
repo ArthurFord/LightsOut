@@ -100,6 +100,7 @@ struct GameView: View {
     var body: some View {
         ZStack {
             Rectangle()
+                .fill(.black)
                 .ignoresSafeArea()
             VStack {
                 Spacer()

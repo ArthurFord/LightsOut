@@ -19,7 +19,7 @@ struct MainView: View {
             }
             RecordsView()
                 .tabItem {
-                    Label("Records", systemImage: "menubar.dock.rectangle.badge.record")
+                    Label("Records", systemImage: "list.star")
                 }
         }
     }
