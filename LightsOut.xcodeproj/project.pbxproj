@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		CE75ABA027A55FC10079FAD6 /* bgaudio.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = CE75AB9F27A55FC10079FAD6 /* bgaudio.mp3 */; };
+		CE75ABA227A55FF00079FAD6 /* BGMusic.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE75ABA127A55FF00079FAD6 /* BGMusic.swift */; };
 		CE9E83E6279C9D5500F151C6 /* LightsOutApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE9E83E5279C9D5500F151C6 /* LightsOutApp.swift */; };
 		CE9E83E8279C9D5500F151C6 /* GameView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE9E83E7279C9D5500F151C6 /* GameView.swift */; };
 		CE9E83EA279C9D5600F151C6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CE9E83E9279C9D5600F151C6 /* Assets.xcassets */; };
@@ -22,6 +24,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		CE75AB9F27A55FC10079FAD6 /* bgaudio.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = bgaudio.mp3; sourceTree = "<group>"; };
+		CE75ABA127A55FF00079FAD6 /* BGMusic.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BGMusic.swift; sourceTree = "<group>"; };
 		CE9E83E2279C9D5500F151C6 /* LightsOut.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LightsOut.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CE9E83E5279C9D5500F151C6 /* LightsOutApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LightsOutApp.swift; sourceTree = "<group>"; };
 		CE9E83E7279C9D5500F151C6 /* GameView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameView.swift; sourceTree = "<group>"; };
@@ -72,8 +76,10 @@
 				CE9E83F9279D8C4B00F151C6 /* Neonderthaw-Regular.ttf */,
 				CE9E83E5279C9D5500F151C6 /* LightsOutApp.swift */,
 				CE9E83E7279C9D5500F151C6 /* GameView.swift */,
+				CE75ABA127A55FF00079FAD6 /* BGMusic.swift */,
 				CE9E8402279EA77C00F151C6 /* LightsOut.xcdatamodeld */,
 				CE9E8405279EA83300F151C6 /* DataController.swift */,
+				CE75AB9F27A55FC10079FAD6 /* bgaudio.mp3 */,
 				CE9E83FC279D9E0C00F151C6 /* MainView.swift */,
 				CE9E83F7279D8B5900F151C6 /* Header.swift */,
 				CE9E83FE279D9F5B00F151C6 /* RecordsView.swift */,
@@ -151,6 +157,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CE75ABA027A55FC10079FAD6 /* bgaudio.mp3 in Resources */,
 				CE9E83ED279C9D5600F151C6 /* Preview Assets.xcassets in Resources */,
 				CE9E83EA279C9D5600F151C6 /* Assets.xcassets in Resources */,
 				CE9E83FA279D8C4B00F151C6 /* Neonderthaw-Regular.ttf in Resources */,
@@ -172,6 +179,7 @@
 				CE9E83E8279C9D5500F151C6 /* GameView.swift in Sources */,
 				CE9E83E6279C9D5500F151C6 /* LightsOutApp.swift in Sources */,
 				CE9E83F4279D70FB00F151C6 /* Cell.swift in Sources */,
+				CE75ABA227A55FF00079FAD6 /* BGMusic.swift in Sources */,
 				CE9E83F6279D722100F151C6 /* Setup.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

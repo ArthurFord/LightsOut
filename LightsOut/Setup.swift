@@ -6,11 +6,15 @@
     //
 
 import Foundation
+import UIKit
+import SwiftUI
 
 struct cellPrototype {
     let id: Int
     var lit: Bool
 }
+
+let bgColor = Color(UIColor.darkGray)
 
 var cellArray: [cellPrototype] = [
     cellPrototype(id: 0, lit: false),

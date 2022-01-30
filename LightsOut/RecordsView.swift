@@ -23,7 +23,7 @@ struct RecordsView: View {
                     VStack(spacing: 16) {
                         ForEach(records) {record in
                             HStack {
-                                Text(record.date?.formatted(date: .abbreviated, time: .omitted) ?? "None")
+                                Text(record.date?.formatted(date: .abbreviated, time: .shortened) ?? "None")
                                 Spacer()
                                 Text("Turns: \(record.turns)")
                                 Spacer()
@@ -41,6 +41,11 @@ struct RecordsView: View {
                 } label: {
                     Text("Delete all records")
                 }
+                .padding()
+                .font(.title2)
+                .foregroundColor(.black)
+                .background(Color.orange)
+                .cornerRadius(16)
                 .alert("Are you sure? This action can't be undone.", isPresented: $deleteRecordsAlertIsShowing) {
                     Button("Yes", role: .destructive) {
                         for record in records {

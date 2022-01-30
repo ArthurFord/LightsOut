@@ -8,20 +8,25 @@
 import SwiftUI
 
 struct MainView: View {
-    
-    
+
+    init() {
+        UITabBar.appearance().backgroundColor = UIColor(named: "darkestGray")
+        UITabBar.appearance().barTintColor = UIColor.white
+    }
     
     var body: some View {
         TabView {
             GameView()
             .tabItem {
-                Label("Game", systemImage: "star")
+                Label("Game", systemImage: "lightbulb.fill")
             }
             RecordsView()
                 .tabItem {
-                    Label("Records", systemImage: "list.star")
+                    Label("Records", systemImage: "list.dash")
                 }
         }
+        .accentColor(.orange)
+        .onAppear(perform: BGMusic.shared.startBGMusic)
     }
 }
 
